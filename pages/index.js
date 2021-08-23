@@ -50,6 +50,7 @@ export default function Home() {
       {/* Body */}
         <form className="flex flex-col items-center mt-30 flex-grow w-4/5">
           <Image 
+            alt=''
             src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
             height={100}
             width={300}
@@ -61,9 +62,9 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-            <button onClick={search} className="btn">Google Search</button>
+            <button onClick={search} className='btn'>Google Search</button>
 
-            <button onClick={search} className="btn">I'm Feeling Lucky</button>
+            <button onClick={search} className="btn">Im Feeling Lucky</button>
           </div>
         </form>
       {/* Footer */}
